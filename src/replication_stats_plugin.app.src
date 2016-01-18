@@ -1,0 +1,9 @@
+%% -*- mode: erlang -*-
+{application, replication_stats_plugin, [
+    {description, "Plugin for generating reports on state of CouchDB replications"},
+    {vsn, "0.0.1"},
+    {modules, []},
+    {registered, []},
+    {applications, [kernel, stdlib]},
+    {env, []}
+]}.
